@@ -1,3 +1,10 @@
+/* COLOR REFERENCES 
+Green: #3EB030;
+Blue: #33B6F2;
+Red: #FE5F63;
+Yellow: #F2F264;
+*/
+
 /*Colors*/
 
 .lightBlue {
@@ -22,6 +29,11 @@
     src: url('fonts/GoodDog.otf');
 }
 
+@font-face {
+    font-family: adumu;
+    src: url('fonts/Adumu.ttf');
+}
+
 .defaultFont {
     font-family: 'Roboto';
 }
@@ -34,6 +46,11 @@
 .goodDog {
     font-family: 'GoodDog';
     color: #0D4E85;
+}
+
+.adumu {
+    font-family: adumu;
+    color: black;
 }
 
 /*Navbar*/

@@ -1,0 +1,169 @@
+
+@font-face {
+    font-family: adumu;
+    src: url('fonts/Adumu.ttf');
+}
+
+/* ==== GENERAL ==== */
+
+body {
+    margin-top: 50px;
+    font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+    background: #EDEDEE;
+    font-size: 16px;
+}
+
+/* ==== GLOBAL ==== */
+
+.container {
+    max-width: 900px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1,h2 {
+    margin: 0 0 40px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+.btn {
+    text-align: center;
+    font-weight: bold;
+    background: #79b044;
+    border: none;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+}
+
+.btn:hover {
+    background: #6a9b3d;
+    border-color: #6a9b3d;
+}
+
+a, a:link, a:visited, a:hover {
+    color: inherit;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+button, input, .btn, a.btn {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    color: white;
+}
+
+/*.row {
+    padding-top: 5px;
+    background: #212121;
+    color: white;
+}
+
+.panel-body {
+    color: black;
+}
+.panel-heading{
+    color: #33B6F2;
+    /*color: black;*/
+
+/* ==== FORMS ==== */
+
+label {
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px 12px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: none;
+    border-radius: 6px;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    outline: none;
+    border: none;
+    background: #aaa;
+}
+
+.head-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#desc {
+    text-align: center;
+    font-family: adumu;
+    color: #7a7a7a;
+}
+
+.btn {
+    text-align: center;
+    background-color: black;
+}
+
