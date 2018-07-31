@@ -158,19 +158,8 @@
 				</p>
 			</div>
 		</div>
-		<div class="footer" id="footer">
-			<div class="row">
-				<p class="flow-text">
-					Brought to you by..
-				</p>
-				<a href="https://svce.acm.org"><img src="images/acm.png" class="responsive-img acmLogo" /></a>
-			</div>
-		</div>
-	</div>
-	<h4 style="width=70%;text-align: center;">Venue Details</h4>
-<center><div id="map" style="width:70%;height:500px"></div></center>
-
-<script>
+		
+		<script>
 function myMap() {
   var mapCanvas = document.getElementById("map");
   var myCenter = new google.maps.LatLng(12.9857604,80.245865); 
@@ -183,6 +172,19 @@ function myMap() {
   marker.setMap(map);
 }
 </script>
+		<div class="footer" id="footer">
+			<div class="row">
+				<p class="flow-text">
+					Brought to you by..
+				</p>
+				<a href="https://svce.acm.org"><img src="images/acm.png" class="responsive-img acmLogo" /></a>
+			</div>
+		</div>
+	</div>
+	<h4 style="width=70%;text-align: center;">Venue Details</h4>
+<center><div id="map" style="width:70%;height:500px"></div></center>
+
+
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhCyGB5aaSqMXA1NeKYJOHaezo2jbf49U&callback=myMap"></script>
 	<!-- core JavaScript
